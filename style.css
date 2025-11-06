@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    background-color: #1a1a1a; /*Mudar a cor do fundo*/
+    /* background-color: #1a1a1a; Mudar a cor do fundo */
 }
 
 
@@ -9,6 +9,7 @@ li a{
 text-decoration: none; /*Remove o sublinhado */
 font-size: 20px; /* Tamanho da font*/
 color: #ffffff; /*Mudar a cor da font*/
+padding: 20px;
 }
 
 li{
@@ -17,11 +18,26 @@ li{
 
 #logo{
 
-    height: 100px; /*Altura*/
-    width: 180px; /*Largura*/
+    height: 90px; /*Altura*/
+    width: 140px; /*Largura*/
 }
 
 ul{
     display: flex; /*Indica a prpriedade FlexBox*/
     flex-direction: row; /*Colocar os elementos na horizontal ou na vertical*/
+
+
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: bisque;
+}
+
+.caixa-img-logo{
+   
+    height: 90px;
+    width: 90px;
 }
