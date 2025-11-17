@@ -104,3 +104,45 @@ padding: 35px; /*Espaçamento interno*/
     display: flex;
     justify-content: center;
 }
+
+.produtos{
+    height: 350px;
+    width: 190px;
+
+}
+
+.valor{
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.cores{
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    
+}
+
+.vermelho{
+    background-color: red;
+}
+
+.azul{
+    background-color: blue;
+}
+
+.laranja{
+    background-color: orange;
+}
+
+.preto{
+    background-color: black;
+}
+
+.caixa-cores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100px;
+}
