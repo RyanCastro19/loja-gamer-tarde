@@ -160,3 +160,13 @@ padding: 35px; /*Espaçamento interno*/
     justify-content: center;
     gap: 15px;
 }
+
+
+.banner-xbox{
+    background-image: url("./assets/xbox.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 600px;
+    border-radius: 15px;
+}
